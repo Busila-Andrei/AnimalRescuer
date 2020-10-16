@@ -9,6 +9,11 @@ public class PetFood {
     double price;
     double amount;
     LocalDate expirationDate;
-    double availabilityInStock;
+    boolean availabilityInStock;
+
+    public PetFood(String name, boolean availabilityInStock){
+        this.name = name;
+        this.availabilityInStock = availabilityInStock;
+    }
 
 }
