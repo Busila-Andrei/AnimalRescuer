@@ -44,8 +44,8 @@ public class App
         dog1.healthLevel = new Random().nextInt(10);
         dog1.hungerLevel = new Random().nextInt(10);
         dog1.moodLevel = new Random().nextInt(10);
-        dog1.FavoriteFood = "Rio";
-        dog1.RecreationalActivity = "Flight";
+        dog1.favoriteFood = "Rio";
+        dog1.recreationalActivity = "Flight";
         System.out.println("Dog name: " + dog1.name);
         System.out.println("Dog breed: " + dog1.dogBreed);
         System.out.println("Does the dog need a walk? " + dog1.needsAWalk);
@@ -54,8 +54,8 @@ public class App
         System.out.println("Level of healt: " + dog1.healthLevel);
         System.out.println("The level of feeling hungry: "  + dog1.hungerLevel);
         System.out.println("Mood level: " + dog1.moodLevel);
-        System.out.println("The name of favorite food: " + dog1.FavoriteFood);
-        System.out.println("The name of the preferred recreational activity: " + dog1.RecreationalActivity);
+        System.out.println("The name of favorite food: " + dog1.favoriteFood);
+        System.out.println("The name of the preferred recreational activity: " + dog1.recreationalActivity);
         System.out.println();
 
         Dog dog2 = new Dog("Bruno",false);
@@ -65,8 +65,8 @@ public class App
         dog2.healthLevel = new Random().nextInt(10);
         dog2.hungerLevel = new Random().nextInt(10);
         dog2.moodLevel = new Random().nextInt(10);
-        dog2.FavoriteFood = "Briatos";
-        dog2.RecreationalActivity = "Running";
+        dog2.favoriteFood = "Briatos";
+        dog2.recreationalActivity = "Running";
         System.out.println("Dog name: " + dog2.name);
         System.out.println("Dog breed: " + dog2.dogBreed);
         System.out.println("Does the dog need a walk? " + dog2.needsAWalk);
@@ -75,8 +75,8 @@ public class App
         System.out.println("Level of healt: " + dog2.healthLevel);
         System.out.println("The level of feeling hungry: "  + dog2.hungerLevel);
         System.out.println("Mood level: " + dog2.moodLevel);
-        System.out.println("The name of favorite food: " + dog2.FavoriteFood);
-        System.out.println("The name of the preferred recreational activity: " + dog2.RecreationalActivity);
+        System.out.println("The name of favorite food: " + dog2.favoriteFood);
+        System.out.println("The name of the preferred recreational activity: " + dog2.recreationalActivity);
         System.out.println();
 
         Dog dog3 = new Dog("Elmo",false);
@@ -86,8 +86,8 @@ public class App
         dog3.healthLevel = new Random().nextInt(10);
         dog3.hungerLevel = new Random().nextInt(10);
         dog3.moodLevel = new Random().nextInt(10);
-        dog3.FavoriteFood = "Milk";
-        dog3.RecreationalActivity = "Sleep";
+        dog3.favoriteFood = "Milk";
+        dog3.recreationalActivity = "Sleep";
         System.out.println("Dog name: " + dog3.name);
         System.out.println("Dog breed: " + dog3.dogBreed);
         System.out.println("Does the dog need a walk? " + dog3.needsAWalk);
@@ -96,8 +96,8 @@ public class App
         System.out.println("Level of healt: " + dog3.healthLevel);
         System.out.println("The level of feeling hungry: "  + dog3.hungerLevel);
         System.out.println("Mood level: " + dog3.moodLevel);
-        System.out.println("The name of favorite food: " + dog3.FavoriteFood);
-        System.out.println("The name of the preferred recreational activity: " + dog3.RecreationalActivity);
+        System.out.println("The name of favorite food: " + dog3.favoriteFood);
+        System.out.println("The name of the preferred recreational activity: " + dog3.recreationalActivity);
         System.out.println();
 
         Dog dog4 = new Dog("Haiduc",false);
@@ -107,8 +107,8 @@ public class App
         dog4.healthLevel = new Random().nextInt(10);
         dog4.hungerLevel = new Random().nextInt(10);
         dog4.moodLevel = new Random().nextInt(10);
-        dog4.FavoriteFood = "Purina ONE";
-        dog4.RecreationalActivity = "Walk in the park";
+        dog4.favoriteFood = "Purina ONE";
+        dog4.recreationalActivity = "Walk in the park";
         System.out.println("Dog name: " + dog4.name );
         System.out.println("Dog breed: " + dog4.dogBreed);
         System.out.println("Does the dog need a walk? " + dog4.needsAWalk);
@@ -117,8 +117,8 @@ public class App
         System.out.println("Level of healt: " + dog4.healthLevel);
         System.out.println("The level of feeling hungry: "  + dog4.hungerLevel);
         System.out.println("Mood level: " + dog4.moodLevel);
-        System.out.println("The name of favorite food: " + dog4.FavoriteFood);
-        System.out.println("The name of the preferred recreational activity: " + dog4.RecreationalActivity);
+        System.out.println("The name of favorite food: " + dog4.favoriteFood);
+        System.out.println("The name of the preferred recreational activity: " + dog4.recreationalActivity);
         System.out.println();
 
 
@@ -129,8 +129,8 @@ public class App
         cat1.healthLevel = new Random().nextInt(10);
         cat1.hungerLevel = new Random().nextInt(10);
         cat1.moodLevel = new Random().nextInt(10);
-        cat1.FavoriteFood = "Rio";
-        cat1.RecreationalActivity = "Flight";
+        cat1.favoriteFood = "Rio";
+        cat1.recreationalActivity = "Flight";
         System.out.println("Cat name: " + cat1.name);
         System.out.println("Eye color: " + cat1.eyeColor);
         System.out.println("Does the dog have a owner? " + cat1.hasAnOwner);
@@ -138,8 +138,8 @@ public class App
         System.out.println("Level of healt: " + cat1.healthLevel);
         System.out.println("The level of feeling hungry: "  + dog1.hungerLevel);
         System.out.println("Mood level: " + cat1.moodLevel);
-        System.out.println("The name of favorite food: " + cat1.FavoriteFood);
-        System.out.println("The name of the preferred recreational activity: " + cat1.RecreationalActivity);
+        System.out.println("The name of favorite food: " + cat1.favoriteFood);
+        System.out.println("The name of the preferred recreational activity: " + cat1.recreationalActivity);
         System.out.println();
 
         Cat cat2 = new Cat("Moti",false);
@@ -148,8 +148,8 @@ public class App
         cat2.healthLevel = new Random().nextInt(10);
         cat2.hungerLevel = new Random().nextInt(10);
         cat2.moodLevel = new Random().nextInt(10);
-        cat2.FavoriteFood = "Rio";
-        cat2.RecreationalActivity = "Flight";
+        cat2.favoriteFood = "Rio";
+        cat2.recreationalActivity = "Flight";
         System.out.println("Cat name: " + cat2.name);
         System.out.println("Eye color: " + cat2.eyeColor);
         System.out.println("Does the dog have a owner? " + cat2.hasAnOwner);
@@ -157,8 +157,8 @@ public class App
         System.out.println("Level of healt: " + cat2.healthLevel);
         System.out.println("The level of feeling hungry: "  + cat2.hungerLevel);
         System.out.println("Mood level: " + cat2.moodLevel);
-        System.out.println("The name of favorite food: " + cat2.FavoriteFood);
-        System.out.println("The name of the preferred recreational activity: " + cat2.RecreationalActivity);
+        System.out.println("The name of favorite food: " + cat2.favoriteFood);
+        System.out.println("The name of the preferred recreational activity: " + cat2.recreationalActivity);
         System.out.println();
 
 
@@ -169,8 +169,8 @@ public class App
         cat3.healthLevel = new Random().nextInt(10);
         cat3.hungerLevel = new Random().nextInt(10);
         cat3.moodLevel = new Random().nextInt(10);
-        cat3.FavoriteFood = "Rio";
-        cat3.RecreationalActivity = "Flight";
+        cat3.favoriteFood = "Rio";
+        cat3.recreationalActivity = "Flight";
         System.out.println("Cat name: " + cat3.name);
         System.out.println("Eye color: " + cat3.eyeColor);
         System.out.println("Does the dog have a owner? " + cat3.hasAnOwner);
@@ -178,8 +178,8 @@ public class App
         System.out.println("Level of healt: " + cat3.healthLevel);
         System.out.println("The level of feeling hungry: "  + cat3.hungerLevel);
         System.out.println("Mood level: " + cat3.moodLevel);
-        System.out.println("The name of favorite food: " + cat3.FavoriteFood);
-        System.out.println("The name of the preferred recreational activity: " + cat3.RecreationalActivity);
+        System.out.println("The name of favorite food: " + cat3.favoriteFood);
+        System.out.println("The name of the preferred recreational activity: " + cat3.recreationalActivity);
         System.out.println();
 
 
@@ -190,8 +190,8 @@ public class App
         cat4.healthLevel = new Random().nextInt(10);
         cat4.hungerLevel = new Random().nextInt(10);
         cat4.moodLevel = new Random().nextInt(10);
-        cat4.FavoriteFood = "Rio";
-        cat4.RecreationalActivity = "Flight";
+        cat4.favoriteFood = "Rio";
+        cat4.recreationalActivity = "Flight";
         System.out.println("Cat name: " + cat4.name);
         System.out.println("Eye color: " + cat4.eyeColor);
         System.out.println("Does the dog have a owner? " + cat4.hasAnOwner);
@@ -199,8 +199,8 @@ public class App
         System.out.println("Level of healt: " + cat4.healthLevel);
         System.out.println("The level of feeling hungry: "  + cat4.hungerLevel);
         System.out.println("Mood level: " + cat4.moodLevel);
-        System.out.println("The name of favorite food: " + cat4.FavoriteFood);
-        System.out.println("The name of the preferred recreational activity: " + cat4.RecreationalActivity);
+        System.out.println("The name of favorite food: " + cat4.favoriteFood);
+        System.out.println("The name of the preferred recreational activity: " + cat4.recreationalActivity);
         System.out.println();
 
 
@@ -276,6 +276,9 @@ public class App
 
         adopter1.feedAnimal(dog1,petFood1);
         adopter1.playWithAnimal(dog2,recreationActivity2);
+
+        //System.out.println(dog1.moodLevel);
+        //System.out.println(dog2.moodLevel);
 
 
     }

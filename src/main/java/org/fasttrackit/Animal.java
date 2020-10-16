@@ -10,8 +10,8 @@ public class Animal {
     int hungerLevel;
     int moodLevel;
 
-    String FavoriteFood;
-    String RecreationalActivity;
+    String favoriteFood;
+    String recreationalActivity;
 
     public Animal(String name, boolean hasAnOwner){
         this.name = name;
