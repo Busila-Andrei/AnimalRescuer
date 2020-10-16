@@ -255,7 +255,7 @@ public class App
         System.out.println("Recreation Activity: " + recreationActivity1.name);
         System.out.println();
 
-        RecreationActivity recreationActivity2 = new RecreationActivity("Flight");
+        RecreationActivity recreationActivity2 = new RecreationActivity("Throws the ball");
         System.out.println("Recreation Activity: " + recreationActivity2.name);
         System.out.println();
 
@@ -273,6 +273,9 @@ public class App
         veterinarian1.specialization = "Vet";
         System.out.println("Veterinarian name: " + veterinarian1.name);
         System.out.println("Specialization: " + veterinarian1.specialization);
+
+        adopter1.feedAnimal(dog1,petFood1);
+        adopter1.playWithAnimal(dog2,recreationActivity2);
 
 
     }
