@@ -1,4 +1,4 @@
-package org.fasttrackit;
+package org.fasttrackit.animals;
 
 public class Dog extends Animal{
 
@@ -23,5 +23,10 @@ public class Dog extends Animal{
 
     public void setNeedsAWalk(boolean needsAWalk) {
         this.needsAWalk = needsAWalk;
+    }
+
+    @Override
+    public void showHappiness(Animal animal){
+        System.out.println(animal.getName() + " is happy, so it is wagging its tail.");
     }
 }

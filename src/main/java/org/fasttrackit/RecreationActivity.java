@@ -7,6 +7,7 @@ public class RecreationActivity {
     public RecreationActivity(String name){
         this.name = name;
     }
+    public RecreationActivity(){}
 
     public String getName() {
         return name;

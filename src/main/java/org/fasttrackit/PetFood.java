@@ -11,9 +11,8 @@ public class PetFood {
     private LocalDate expirationDate;
     private boolean availabilityInStock;
 
-    public PetFood(String name, boolean availabilityInStock){
+    public PetFood(String name){
         this.name = name;
-        this.availabilityInStock = availabilityInStock;
     }
 
     public String getName() {

@@ -1,4 +1,4 @@
-package org.fasttrackit;
+package org.fasttrackit.animals;
 
 public class Cat extends Animal{
 
@@ -14,5 +14,10 @@ public class Cat extends Animal{
 
     public void setEyeColor(String eyeColor) {
         this.eyeColor = eyeColor;
+    }
+
+    @Override
+    public void showHappiness(Animal animal){
+        System.out.println(animal.getName() + " is happy, so it is purring.");
     }
 }

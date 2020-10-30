@@ -1,7 +1,6 @@
 package org.fasttrackit;
 
-import java.time.LocalDate;
-import java.util.Random;
+import org.fasttrackit.service.Game;
 
 /**
  * Hello world!
@@ -11,7 +10,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        Adopter adopter1 = new Adopter("Marcel");
+        Game game = new Game();
+        game.start();
+
+        /*Adopter adopter1 = new Adopter("Marcel");
         adopter1.setAmountOfMoneyAvailable(320);
         System.out.println("Adaptor name: " + adopter1.getName());
         System.out.println("Amount of money available: "+ adopter1.getAmountOfMoneyAvailable());
@@ -56,7 +58,7 @@ public class App
         System.out.println("Mood level: " + dog1.getMoodLevel());
         System.out.println("The name of favorite food: " + dog1.getFavoriteFood());
         System.out.println("The name of the preferred recreational activity: " + dog1.getRecreationalActivity());
-        System.out.println();
+        System.out.println(dog1);
 
         Dog dog2 = new Dog("Bruno",false);
         dog2.setDogBreed("Akita Japonez");
@@ -279,6 +281,8 @@ public class App
 
         //System.out.println(dog1.moodLevel);
         //System.out.println(dog2.moodLevel);
+
+         */
 
 
     }

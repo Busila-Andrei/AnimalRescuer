@@ -1,4 +1,4 @@
-package org.fasttrackit;
+package org.fasttrackit.animals;
 
 public class Animal {
 
@@ -16,6 +16,10 @@ public class Animal {
     public Animal(String name, boolean hasAnOwner){
         this.name = name;
         this.hasAnOwner = hasAnOwner;
+    }
+
+    public Animal() {
+
     }
 
     public String getName() {
@@ -80,5 +84,10 @@ public class Animal {
 
     public void setRecreationalActivity(String recreationalActivity) {
         this.recreationalActivity = recreationalActivity;
+    }
+
+
+    public void showHappiness(Animal animal){
+        System.out.println(animal.getName() + " is happy");
     }
 }

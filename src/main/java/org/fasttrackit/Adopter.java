@@ -1,5 +1,7 @@
 package org.fasttrackit;
 
+import org.fasttrackit.animals.Animal;
+
 public class Adopter {
 
     private String name;
@@ -9,7 +11,7 @@ public class Adopter {
         this.name = name;
     }
 
-    public void feedAnimal(Animal animal,PetFood food){
+    public void feedAnimal(Animal animal, PetFood food){
         System.out.println(this.name + " just gave some " + food.getName() + "  food to " + animal.getName());
         if(food.getName().equals(animal.getFavoriteFood())){
             animal.setMoodLevel(animal.getMoodLevel() + 1);
