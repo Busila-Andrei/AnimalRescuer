@@ -46,7 +46,7 @@ public class Game {
     private void initAdaptorNameFromUser() {
         System.out.print("Please enter the name of your adaptor character: ");
         String adoptorName = ScannerUtils.nextLine();
-        while(adoptorName.isEmpty()){
+        while (adoptorName.isEmpty()) {
             System.out.println("You entered nothing. Try again.");
             System.out.print("Please enter the name of your adaptor character: ");
             adoptorName = ScannerUtils.nextLine();
